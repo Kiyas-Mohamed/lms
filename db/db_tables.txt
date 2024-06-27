@@ -1,0 +1,66 @@
+books :
+
+id
+title
+description
+category_id
+author_id
+quantity
+status (Published and Unpublished)
+images
+created_at
+updated_at
+
+authors :
+
+id
+author_name
+book_id
+status (Active  and Deactive)
+profile
+created_at
+updated_at
+
+categories :
+
+id
+category_name
+status (Active and  Deactive)
+created_at
+updated_at
+
+users :
+
+id
+full_name
+email
+password
+phone
+role (Admin and  Member)
+status (Active and Deactive)
+profile
+created_at
+updated_at
+
+fines :
+
+id
+book_id
+user_id
+lend_id
+amount
+fine_date
+created_at
+updated_at
+
+lendings :
+
+id
+book_id
+category_id
+user_id
+status (Approved and Unapproved)
+received_date
+given_date
+created_at
+updated_at
